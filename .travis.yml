@@ -29,22 +29,12 @@ cache:
     - ${HOME}/.m2/repository/.cache/maven-download-plugin
 
 addons:
-  apt:
-    sources:
-    - r-packages-precise
-    packages:
-    - r-base-dev
-    - r-cran-evaluate
-    - r-cran-base64enc
-  
   coverity_scan:
 
     # GitHub project metadata
     # ** specific to your project **
     project:
       name: apache/zeppelin
-      version: 1.0
-      description: Apache Zeppelin
 
     # Where email notification of build analysis results will be sent
     notification_email: bbavishi@hortonworks.com
@@ -61,6 +51,16 @@ addons:
     # Take care in resource usage, and consider the build frequency allowances per
     #   https://scan.coverity.com/faq#frequency
     branch_pattern: "*"
+
+  apt:
+    sources:
+    - r-packages-precise
+    packages:
+    - r-base-dev
+    - r-cran-evaluate
+    - r-cran-base64enc
+  
+
 
 matrix:
   include:
