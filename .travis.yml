@@ -60,8 +60,6 @@ addons:
     - r-cran-evaluate
     - r-cran-base64enc
   
-
-
 matrix:
   include:
     # Test all modules with scala 2.10
