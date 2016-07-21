@@ -17,7 +17,7 @@ env:
   global:
     # COVERITY_SCAN_TOKEN
     # ** specific to your project **
-    - secure: "HjK8NpQgwTXSWxF5_pw8NA"
+    - secure: "J3r2F4EGyj/FJVLdVui9JcHnaEwxySqzPpMCe7ZGmzYrvkTbTBVi/NzxkJn2/o7Mgk2r/dcXLoNJrJ+uxHFm6lbvAgmeR0/CAhIX5VKFnDLi1xxfVZGmJ4Q/kJ8083xi5xuGIbzBbsz2IFOHQimjPGBgr9xfCDJeMYy4uUSmztqF5Y81hLr5e9ncp6x3pkMqMOtoRjVsZbR+ompZLnRvEErtE89a5Ax88Pqjb4Kt6JVrxrHMmuRd+Hk+sebGRuMQcr/kMXvRMI8j2w3NEhfMCBUDlaYvfuArLvUtG/BvgKtFQ0uJpcR6jeeO6OMe+yGW7xY9iMWKa7YFdMfBcc75/xhXzbq4du23zJG++pF73hbSA/fzxFCLhu/PPRMyYorrPYZfwjvzU4FSB/kI20nFs7wKU7pOVAF7KZoKH0xnJ4vUZ0oGrN4dPyPk8V+hli0m3JsSUtW6Yr63YchyHXdIA/kjz49jjk3KOUB7KdTIF2kBdDJOYj6f4t6wZxFVXjJ9K11vxSbZgXvwjret5Kngv5Up2swZ9uIY97qOszdPepiA0lCXxUg/ElzBLKvzPN3x/ANMSF3Ff6/CdJ9U0KguWdYC4M3IyC+LYtvjWrzVmB7jlgjA3XQ1rei3kTvb787ubeAdPtDz488LLkYTlS70IMUnifWSlzqS0vkycC2U0hE="
 
 language: java
 
