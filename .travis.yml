@@ -34,7 +34,7 @@ addons:
     # GitHub project metadata
     # ** specific to your project **
     project:
-      name: apache/zeppelin
+      name: zeppelin
 
     # Where email notification of build analysis results will be sent
     notification_email: bbavishi@hortonworks.com
